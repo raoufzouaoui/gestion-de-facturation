@@ -1,0 +1,90 @@
+{
+  "factureList": [
+    {
+      "clientName": "ayoub",
+      "Reference": "123",
+      "Quantite": "400",
+      "Prix": 9999,
+      "dateDebut": "2022-12-04T23:00:00.000Z",
+      "dateFin": "2022-12-11T23:00:00.000Z",
+      "emailclient": "1",
+      "id": 3
+    },
+    {
+      "clientName": "nesrine ",
+      "Reference": "312",
+      "Quantite": "123",
+      "Prix": 1111,
+      "dateDebut": "2022-12-02T23:00:00.000Z",
+      "dateFin": "2022-12-06T23:00:00.000Z",
+      "emailclient": "22",
+      "id": 4
+    },
+    {
+      "clientName": "raouf",
+      "Reference": "22",
+      "Quantite": "123",
+      "Prix": 989,
+      "dateDebut": "2022-11-30T23:00:00.000Z",
+      "dateFin": "2022-12-29T23:00:00.000Z",
+      "emailclient": "raoufzouaoui06@gmail.com",
+      "id": 5
+    },
+    {
+      "clientName": "raouf",
+      "Reference": "33",
+      "Quantite": "444",
+      "Prix": 432,
+      "dateDebut": "2022-12-05T23:00:00.000Z",
+      "dateFin": "2022-12-07T23:00:00.000Z",
+      "emailclient": "raoufzouaoui06@gmail.com",
+      "id": 6
+    },
+    {
+      "clientName": "bbb",
+      "Reference": "21",
+      "Quantite": "23",
+      "Prix": 12,
+      "dateDebut": "2022-12-05T23:00:00.000Z",
+      "dateFin": "2022-12-05T23:00:00.000Z",
+      "emailclient": "b@gmail.com",
+      "id": 7
+    },
+    {
+      "clientName": "abir",
+      "Reference": "123",
+      "Quantite": "44443",
+      "Prix": 1111,
+      "dateDebut": "2022-12-19T23:00:00.000Z",
+      "dateFin": "2022-12-21T23:00:00.000Z",
+      "emailclient": "abir@gmail.com",
+      "id": 8
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Raouf Zouaoui",
+      "email": "raoufzouaoui06@gmail.com",
+      "password": "raouf",
+      "mobile": 50251819,
+      "id": 1
+    },
+    {
+      "fullname": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "mobile": 55555555,
+      "id": 2
+    },
+    {
+      "fullname": "abir gharsalli",
+      "email": "abir@gmail.com",
+      "password": "abir",
+      "mobile": 11111111,
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #009ddc">
+  <div class="container-fluid">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+          <mat-icon>supervised_user_circle</mat-icon>
+        </button>
+    <a class="navbar-brand" href="http://localhost:4200/home">Welcome to facturation</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" style="margin-left: 3%;">
+        <li class="nav-item">
+          <a  class="nav-link active"  aria-current="page" href="http://localhost:4200/home">Home</a>
+        </li>
+        <li class="nav-item" style="margin-left: 3%;">
+          <a class="nav-link" href="http://localhost:4200/contact">contact</a>
+        </li>
+        <li class="nav-item" style="margin-left: 3%;">
+          <a class="btn btn-success" routerLink="/login"  role="button" style="margin-left: 33%;">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <style>
+    body{
+      height: 100%; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        background-image: linear-gradient( 
+        115deg, rgba(35, 161, 211, 0.8), rgba(238, 242, 234, 0.7) ), url( https://iconicmnl.com/wp-content/uploads/2020/07/Transfer-Money-From-Paypal-To-Paymaya.jpg);
+        font-family: "poppins";
+        
+    }
+</style>
+<body>
+
+<div class="container"  >
+  <div id="myPaypalButtons" style="width: 25px; display: block;
+  margin-left: auto;
+  margin-right: auto"></div>
+</div>
+</body>
+<footer style="margin-top: 0%;background-color: #009ddc " id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+  </div>
+</footer>

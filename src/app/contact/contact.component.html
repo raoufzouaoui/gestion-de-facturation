@@ -1,0 +1,128 @@
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #009ddc">
+    <div class="container-fluid">
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>supervised_user_circle</mat-icon>
+          </button>
+      <a class="navbar-brand" href="http://localhost:4200/home">Welcome to facturation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="margin-left: 3%;">
+          <li class="nav-item">
+            <a  class="nav-link active"  aria-current="page" href="http://localhost:4200/home">Home</a>
+          </li>
+          <li class="nav-item" style="margin-left: 3%;">
+            <a class="nav-link" href="http://localhost:4200/contact">contact</a>
+          </li>
+          <li class="nav-item" style="margin-left: 3%;">
+            <a class="btn btn-success" routerLink="/login"  role="button" style="margin-left: 3%;">Logout</a>
+          </li>
+          
+          <!-- <button   class="btn1 active mx-2">Logout</button> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <style>
+    body{
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient( 
+        115deg, rgba(35, 161, 211, 0.8), rgba(238, 242, 234, 0.7) ), url( https://thumbs.dreamstime.com/b/man-holding-smartphone-contact-symbols-contact-us-man-holding-smartphone-contact-symbols-contact-us-167670961.jpg);
+        font-family: "poppins";
+    }
+  </style>
+<body>
+
+<div class="container">
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+    </div>
+
+    
+</body>
+
+<footer style="background-color: #009ddc " id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Your Website</small>
+    </div>
+  </footer>

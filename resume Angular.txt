@@ -1,0 +1,4 @@
+1) Difference between oninit and constructor ??
+        The constructor() should only be used to initialize class members but shouldn't do actual "work". 
+So we should use constructor() to setup Dependency Injection, Initialization of class fields etc. 
+ngOnInit() is a better place to write "actual work code" that we need to execute as soon as the class is instantiated.
